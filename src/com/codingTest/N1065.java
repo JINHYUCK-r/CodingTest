@@ -10,7 +10,8 @@ public class N1065 {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		int num = scan.nextInt();
-
+		char chnum = (char)num;
+		System.out.println(chnum);
 		System.out.println(cnt(num));
 	}
 
