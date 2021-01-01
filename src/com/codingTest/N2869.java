@@ -48,19 +48,24 @@ public static void main(String[] args) throws IOException {
 	int B = Integer.parseInt(st.nextToken());
 	int V = Integer.parseInt(st.nextToken());
 	
-	int Ac = 0;
-	int Bc = 0;
-	int Vc = 0;
-	
-	while(true) {
-	Ac++;
-	Vc = Vc + A;
-		if(Vc >= V) {
-			System.out.println(Ac);
-			break;
-		}
-	Bc++;
-	Vc = Vc -B;	
+	int day = (V-B)/ (A-B);
+	if(((V-B)% (A-B)) != 0 ){
+		day++;
 	}
+	System.out.println(day);
 }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
