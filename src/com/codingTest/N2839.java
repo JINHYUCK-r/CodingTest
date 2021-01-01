@@ -13,7 +13,6 @@ public class N2839 {
 		
 		if(gram ==4 || gram == 7) {
 			cnt = -1;
-			cnt = (gram/5)+2;
 		}else if(gram%5 == 0) {
 			cnt = (gram/5);
 		}else if(gram%5 == 1 || gram%5 ==3) {
