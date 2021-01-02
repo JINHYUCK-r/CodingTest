@@ -7,6 +7,7 @@ import java.math.BigInteger;
 
 //https://www.acmicpc.net/problem/10757
 // 큰수 더하기
+//BigInteger 사용 
 public class N10757 {
 
 	public static void main(String[] args) throws IOException{
